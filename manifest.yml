@@ -1,7 +1,7 @@
 applications: 
 - name: videlog
-    buildpack: java_buildpack 
-    instances: 2 
-    memory: 512M 
-    disk_quota: 512M 
-    path: /index.jsp
+  buildpack: java_buildpack 
+  instances: 2 
+  memory: 512M 
+  disk_quota: 512M 
+  path: .
