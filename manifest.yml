@@ -1,4 +1,7 @@
-applications: 
+---
+applications:
 - name: videlog
-  buildpack: java_buildpack 
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  memory: 1024M
+  instances: 1
   path: .
