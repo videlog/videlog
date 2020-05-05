@@ -1,3 +1,4 @@
 applications: 
 - name: videlog
   buildpack: java_buildpack 
+  path: index.jsp
