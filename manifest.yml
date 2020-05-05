@@ -1,6 +1,6 @@
 applications: 
-- name: appname 
-    host: app_hostname 
+- name: videlog
+    host: 
     buildpack: java_buildpack 
     instances: 2 
     memory: 512M 
