@@ -3,4 +3,3 @@ applications:
 - name: videlog
   memory: 1024M
   instances: 1
-  path: target/postgresql-42.2.2.jar
