@@ -4,4 +4,5 @@ applications:
   memory: 1024M
   instances: 1
   path: .
-  buildpack: liberty-for-java
+  buildpack: java_buildpack
+  
